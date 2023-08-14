@@ -6,7 +6,7 @@ import folium
 app = Flask(__name__)
 
 # Substitua 'your_mapbox_token' pelo seu token de acesso do Mapbox
-mapbox_token = 'pk.eyJ1Ijoic3RoZWNhbWlsZSIsImEiOiJjbGs5enF3eHgwMjIxM2xuYXhmMWF2M3J3In0.GsOKW7BGbB3isNIHZx8pNg'
+mapbox_token = 'your_mapbox_token'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
